@@ -18,7 +18,7 @@ target/
 *.iws
 *.iml
 *.ipr
-.DS_Store
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -31,5 +31,3 @@ build/
 
 ### VS Code ###
 .vscode/
-log4j
-log4j.properties
