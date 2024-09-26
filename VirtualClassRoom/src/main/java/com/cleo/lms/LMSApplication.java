@@ -12,14 +12,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 @EnableEurekaClient
 @Slf4j
 public class LMSApplication {
-    @Bean
-    public BCryptPasswordEncoder passwordEncoder(){
-        return new BCryptPasswordEncoder();
-    }
 
     @GetMapping("/")
     public String index(){
-        log.warn("Same origin");
+        //log.warn("Same origin");
         return "index";
     }
     public static void main(String[] args) {
