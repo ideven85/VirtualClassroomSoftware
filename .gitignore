@@ -32,7 +32,6 @@ build/
 ### VS Code ###
 .vscode/
 log4j
-log4j.properties
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
